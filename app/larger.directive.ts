@@ -13,9 +13,4 @@ export class LargerDirective {
   @HostListener('mouseleave') onMouseLeave() {
     this.large = false;
   }
-
-  @Input() set mwLarger(value)
-  {
-    this.large = true;
-  }
 }
