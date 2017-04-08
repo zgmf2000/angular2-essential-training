@@ -1,0 +1,12 @@
+<div [hidden]="isVisible()" class="popup">
+  <p class="close-pop-up" (click)="toggleClose()">X</p>
+  <div class="switcher-container">
+    <button class="switcher previous" (click)="switchImage('previous')"><</button>
+    <mw-image-switcher [index]="index" [images]="images"></mw-image-switcher>
+    <button class="switcher next" (click)="switchImage('next')">></button>
+  </div>
+  <h1>Name : {{ mediaItem?mediaItem.name:"-" }}</h1>
+  <h1>Type : {{ mediaItem?mediaItem.medium:"-" }}</h1>
+  <h1>Genre: {{ mediaItem?mediaItem.category:"-" }}</h1>
+  <h1>Year : {{ mediaItem?mediaItem.year:"-" }}</h1>
+</div>

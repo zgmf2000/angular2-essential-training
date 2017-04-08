@@ -1,6 +1,8 @@
 :host {
   display: flex;
   flex-direction: column;
+  float: left;
+  margin: 0 5px;
   width: 140px;
   height: 200px;
   border: 2px solid;
@@ -61,4 +63,14 @@ h2 {
   border-radius: 4px;
   color: #ffffff;
   text-decoration: none;
+}
+.preview
+{
+  display: block;
+  background-color: gold;
+  padding: 4px;
+  font-size: .8em;
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
 }

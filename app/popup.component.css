@@ -1,0 +1,45 @@
+.popup
+{
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 200px;
+    width: 200px;
+    padding: 25px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.close-pop-up
+{
+  text-align: right;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.switcher-container
+{
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.switcher
+{
+  position: absolute;
+  border: none;
+  background-color: white;
+  font-size: xx-large;
+  font-weight: bold;
+  top: 15px;
+}
+
+.switcher.next
+{
+  right: 15px;
+}
+
+.switcher.previous
+{
+  left: 15px;
+}
